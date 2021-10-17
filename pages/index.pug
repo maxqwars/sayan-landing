@@ -1,0 +1,38 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    //- SEO
+    title
+      | Sayan - Открытое приложение для работы с REST API Анилибрии
+    meta(name="description", content="Саян приложение с открытым исходным кодом, для работы с API Анилибрии (или иным совместимым).")
+    include ../includes/material-icons.pug
+    include ../includes/styles.pug
+  body
+
+    //- Yandex metrika counter
+    include ../includes/yandex-metrika.html
+
+    //- navigation
+    include ../templates/Navigation.pug
+
+    //- parallax effect
+    include ../templates/Parallax.pug
+
+    //- spotlight
+    include ../templates/Spotlight.pug
+    
+    //- features
+    include ../templates/Features.pug
+
+    //- Download
+    include ../templates/Download.pug
+    
+    //- footer
+    include ../templates/Footer.pug
+
+    //- scripts
+    include ../includes/scripts.pug
